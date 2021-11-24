@@ -1,6 +1,6 @@
 # gruvbox.nvim
 
-A port of [gruvbox community](https://github.com/gruvbox-community/gruvbox) theme to lua with [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) support!
+A fork of [gruvbox community](https://github.com/ellisonleao/gruvbox.nvim) with minor changes to make line/number column less busy
 
 Please note that this plugin is under active development right now, so the status for it is still alpha. Please file issues if you find any bugs.
 
@@ -14,13 +14,13 @@ Using `vim-plug`
 
 ```vim
 Plug 'rktjmp/lush.nvim'
-Plug 'ellisonleao/gruvbox.nvim'
+Plug 'jaredrooprai/gruvbox.nvim'
 ```
 
 Using `packer`
 
 ```lua
-use {"ellisonleao/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
+use {"jaredrooprai/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
 ```
 
 # Usage
