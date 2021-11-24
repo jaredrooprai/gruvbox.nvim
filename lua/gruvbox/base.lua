@@ -86,7 +86,7 @@ local number_column = utils.get_color_from_var(vim.g.gruvbox_number_column, nil,
 local color_column = utils.get_color_from_var(vim.g.gruvbox_color_column, bg1, colors)
 local vert_split = utils.get_color_from_var(vim.g.gruvbox_vert_split, bg0, colors)
 local tabline_sel = utils.get_color_from_var(vim.g.gruvbox_tabline_sel, green, colors)
-local sign_column = utils.get_color_from_var(vim.g.gruvbox_sign_column, bg1, colors)
+local sign_column = utils.get_color_from_var(vim.g.gruvbox_sign_column, nil, colors)
 
 local improved_strings_fg = fg1
 local improved_strings_bg = bg1
@@ -192,7 +192,7 @@ local base_group = lush(function()
     SignColumn {bg = sign_column},
     IncSearch {fg = hls_cursor, bg = bg0, gui = styles.inverse},
     LineNr {fg = bg4, bg = number_column},
-    CursorLineNr {fg = yellow, bg = bg1},
+    CursorLineNr {fg = yellow, bg = nil},
     MatchParen {bg = bg3, gui = styles.bold},
     ModeMsg {GruvboxYellowBold},
     MoreMsg {GruvboxYellowBold},
