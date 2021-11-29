@@ -217,6 +217,8 @@ local plugins = lush(function()
     GitSignsChange {base.GruvboxAquaSign},
     GitSignsDelete {base.GruvboxRedSign},
     GitSignsCurrentLineBlame {base.NonText},
+    --nvim-tree
+    NvimTreeFolderName {base.Comment},
     -- nvim-cmp
     CmpItemAbbr {base.GruvboxFg0},
     CmpItemAbbrDeprecated {base.GruvboxFg0},
